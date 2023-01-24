@@ -10,7 +10,11 @@ export const Option = styled.div`
   color: white;
   cursor: pointer;
   display: flex;
-  padding: 10px 0;
+  padding: 6px 0;
+
+  > h4 {
+    font-size: 14px;
+  }
 
   > i {
     font-size: 22px;

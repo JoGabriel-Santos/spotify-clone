@@ -6,8 +6,8 @@ export const Container = styled.div`
   display: flex;
   grid-area: LO;
   padding-left: 22px;
-  
+
   > img {
-    max-height: 38px;
+    max-height: 40px;
   }
 `;
