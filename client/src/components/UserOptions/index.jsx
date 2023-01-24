@@ -1,12 +1,24 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Container, Navigation, UserInfo } from "./styles";
 
 const UserOptions = () => {
 
     return (
         <Container>
-            <h1>Opa</h1>
+            <Navigation>
+                <div className="prev">
+                    <i className="bi bi-arrow-left-circle prev"></i>
+                </div>
+
+                <div className="next">
+                    <i className="bi bi-arrow-right-circle"></i>
+                </div>
+            </Navigation>
+
+            <UserInfo>
+                <h4>Gabriel</h4>
+            </UserInfo>
         </Container>
     )
 }

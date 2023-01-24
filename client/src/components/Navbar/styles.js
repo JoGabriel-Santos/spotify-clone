@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: black;
   grid-area: NB;
+  padding-top: 15px;
 `;
 
 export const Option = styled.div`
@@ -10,14 +11,15 @@ export const Option = styled.div`
   color: white;
   cursor: pointer;
   display: flex;
-  padding: 6px 0;
+  padding: 5px 0;
 
   > h4 {
     font-size: 14px;
+    font-weight: 500;
   }
 
   > i {
     font-size: 22px;
-    margin: 0 22px;
+    margin: 0 20px;
   }
 `;

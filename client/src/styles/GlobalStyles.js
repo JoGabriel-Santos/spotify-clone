@@ -13,7 +13,7 @@ export default createGlobalStyle`
 
   *, button, input {
     border: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     outline: 0;
   }
 `;

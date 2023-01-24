@@ -5,7 +5,7 @@ export const Container = styled.div`
   background-color: black;
   display: flex;
   grid-area: LO;
-  padding-left: 22px;
+  padding-left: 20px;
 
   > img {
     max-height: 40px;
