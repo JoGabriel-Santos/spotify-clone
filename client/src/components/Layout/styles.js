@@ -12,7 +12,7 @@ export const Grid = styled.div`
     'LO UO'
     'NB HO'
     'PC PC';
-  grid-template-columns: 332px auto;
+  grid-template-columns: 300px auto;
   grid-template-rows: 72px auto 90px;
   height: 100vh;
 `;
